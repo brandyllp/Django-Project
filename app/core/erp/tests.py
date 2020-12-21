@@ -32,5 +32,3 @@ from core.erp.models import Type, Employee
 Employee.objects.filter(type_id=1)
 for i in  Type.objects.filter(name__iendswith='a'):
     print(i.name)
-
-print(obj)
